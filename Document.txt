@@ -1,0 +1,23 @@
+My Assignemt
+- Create a local git repository and move the entire code base to it
+git init
+git add .
+git commit -m  "Moving the entire code base"
+- Create a new branch for a new feature you want to add to the application
+git branch aboutUsPage
+git checkout aboutUsPage
+git add .
+git commit -m "I am committing the new branch"
+git checkout master
+- Merge back the created branch with the master branch
+git merge aboutUsPage
+git status
+- Create a remote repository 
+"Edureka_Assignment"
+git remote add origin https://github.com/tshimsthedoor/Edureka_Assignment.git
+git branch -M main
+Push the local repository to company’s remote repository
+git push -u origin main
+
+git url: https://github.com/tshimsthedoor/Edureka_Assignment
+
